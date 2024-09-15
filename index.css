@@ -73,11 +73,11 @@ main {
 }
 .clock-button button{
   width: 50%;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   outline: none;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #87f8b6;
   transition: ease-in 0.5s;
@@ -94,5 +94,16 @@ main {
     display: flex;
    
     justify-content: space-between;
+  }
+  .clock-button button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #87f8b6;
+    transition: ease-in 0.5s;
   }
 }
